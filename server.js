@@ -12,6 +12,10 @@ app.get('/one', (req, res) => {
     res.send('Hello from route one-1');
 });
 
+app.get('/two', (res, res) => {
+    res.send('Hello from route two');
+});
+
 app.listen(PORT, () => {
     /* eslint-disable no-console */
     console.log(`Example app listening on port ${PORT}!`);
