@@ -16,6 +16,10 @@ app.get('/branch-one', (req, res) => {
     res.send('Hello from branch one');
 });
 
+app.get('/branch-three', (req, res) => {
+    res.send('Hello from branch three');
+});
+
 app.listen(PORT, () => {
     /* eslint-disable no-console */
     console.log(`Example app listening on port ${PORT}!`);
