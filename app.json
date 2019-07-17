@@ -16,6 +16,7 @@
   },
   "name": "heroku_demo",
   "scripts": {
+    "test": "npm test"
   },
   "stack": "heroku-18"
 }
