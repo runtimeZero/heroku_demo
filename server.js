@@ -9,11 +9,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/one', (req, res) => {
-    res.send('Hello from route one-1');
-});
-
-app.get('/three', (req, res) => {
-    res.send('Hello from route three and more and more');
+    res.send('Hello from route one');
 });
 
 app.listen(PORT, () => {
