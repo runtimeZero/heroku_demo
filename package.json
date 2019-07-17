@@ -1,0 +1,22 @@
+{
+  "name": "myserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "pretest": "eslint .",
+    "test": "jest",
+    "start": "node server.js"
+  },
+  "author": "Shreya Vakil",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "eslint": "^6.0.1",
+    "jest": "^24.8.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "jest": "^24.8.0"
+  }
+}
