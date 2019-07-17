@@ -8,6 +8,10 @@ app.get('/', (req, res) => {
     res.send('Hello NodeJs automation on Heroku ' + total);
 });
 
+app.get('/one', (req, res) => {
+    res.send('Hello from route one');
+});
+
 app.listen(PORT, () => {
     /* eslint-disable no-console */
     console.log(`Example app listening on port ${PORT}!`);
